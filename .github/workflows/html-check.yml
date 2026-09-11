@@ -11,4 +11,5 @@ jobs:
 
       - uses: anishathalye/proof-html@v1.1.0
         with:
-          file: index.html
+          directory: ./
+          args: --files index.html
